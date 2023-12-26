@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Figtree';
+    /* Choose a name for your font family */
+    src: local('Figtree'), url('assets/fonts/Figtree-VariableFont_wght.ttf') format('woff2');
+    /* Specify the path to your font file and its format */
+}
+
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Figtree';
+}
+
+.container {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    align-items: center;
+    width: 350px;
+}
+.container svg{
+    border-radius: 10px;
+}
+
+.type {
+    padding: 5px;
+    width: min-content;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.container .date {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.container p {
+    font-size: 16px;
+}
+
+.container .user{
+    display: flex;
+    column-gap: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    height: 5vh;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
